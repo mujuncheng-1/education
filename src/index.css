@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light;
+  --page-bg: #f6f9ff;
+  --panel-bg: #ffffff;
+  --line-color: #dde5f3;
+  --text-main: #17233d;
+  --text-soft: #5f6b84;
+  --sider-bg-top: #f9fbff;
+  --sider-bg-bottom: #f2f6ff;
+
+  font-family: HarmonyOS Sans SC, PingFang SC, Microsoft YaHei, Segoe UI, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body[data-theme='dark'] {
+  color-scheme: dark;
+  --page-bg: #111826;
+  --panel-bg: #161f31;
+  --line-color: #27344e;
+  --text-main: #eef3ff;
+  --text-soft: #a7b1c5;
+  --sider-bg-top: #141d2f;
+  --sider-bg-bottom: #111826;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text-main);
+  background: var(--page-bg);
+}
+
+a {
+  color: inherit;
+}
